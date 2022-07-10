@@ -24,4 +24,4 @@ COPY --from=build /usr/local/openjdk-8/lib/tools.jar /docker-java-home/jre/lib/t
 
 
 #Uncomment the next line for log4shell vulnerability if using base tomcat image > 8.5.33
-#ENV JAVA_OPTS="-Dcom.sun.jndi.ldap.object.trustURLCodebase=true"
+ENV JAVA_OPTS="-Dcom.sun.jndi.ldap.object.trustURLCodebase=true"
