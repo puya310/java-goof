@@ -43,6 +43,12 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.xwiki.platform</groupId>
+            <artifactId>xwiki-platform-scheduler-api</artifactId>
+            <version>14.10.8</version>
+        </dependency>
+
         <!-- spring web -->
         <dependency>
             <groupId>org.springframework</groupId>
